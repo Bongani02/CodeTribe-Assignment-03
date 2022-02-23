@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+    <meta name="description" content="An Html Tutorial for Codetribe Bootcamp 2022">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Codetribe">
+    <meta name="keywords" content="HTML, Turorials, Codetribe, mLab,">
+    <title>Codetribe Bootcamp Website</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <table id="headerTable">
+
+            <tr>
+                <!-- table data which houses our logo -->
+                <td>
+                    <img class="logo" src="./assets/imgs/logoT.png" alt="">
+                </td>
+
+                <!-- table data which houses our nav bar -->
+                <td align="right">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About me</a>
+                        <a href="#">Contact us</a>
+                    </nav>
+                </td>
+
+            </tr>
+        </table>
+    </header>
+
+
+    <main>
+      
+
+	
+	   <!-- contact us coding from YouTube //event.preventDefault();-->
+	   <div id="overlay">
+			<form onsubmit="validateForm()" action="https://formspree.io/f/xknyrede" method="POST" >
+			<h1>Contact Us</h2>
+			 
+			 <label for="name">Name:</label>
+			 <input type="text" id="name" placeholder="Your name">
+			 <small class="error"></small>
+			 
+			 <label for="email">Email:</label>
+			 <input type="text" id="email" placeholder="Your email">
+			 <small class="error"></small>
+			 
+			 <label for="message">Message:</label>
+			 <textarea id="message" placeholder="Your message" rows="6"></textarea>
+			 <small class="error"></small>
+			 
+			 <div class="center">
+				<input type="submit" value="send Message">
+				<p id="success">Send</p>
+			 </div>
+			 
+			</form>
+			
+	   </div>
+	    
+	   
+	   
+	   
+    </main>
+	
+	  
+   <footer class="footerText">
+		
+				<section class="footerText">
+					<div class="">
+						
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-google"></a>
+					<a href="#" class="fa fa-linkedin"></a>
+					<a href="#" class="fa fa-youtube"></a>
+					<a href="#" class="fa fa-instagram"></a>
+					<p class="footerText"><a target="_blank" class="contact">0814110387</a></p>
+										
+					</div>
+				</section>
+    </footer>
+
+</body>
+<script src="js/main.js"></script>
+
+</html>
